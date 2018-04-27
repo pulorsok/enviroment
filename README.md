@@ -18,7 +18,7 @@ curl -o - https://raw.githubusercontent.com/pulorsok/enviroment/master/tmux_inst
 curl -o - https://raw.githubusercontent.com/pulorsok/enviroment/master/vim_install.sh | sh
 ```
 
-### Bash install
+### Remote Sublime install
 
 This installation should run on your server
 ```
