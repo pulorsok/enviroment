@@ -30,3 +30,7 @@ After that , the install for client you should run
 cd ~/Library/Application\ Support/Sublime\ Text\ 2{or 3}/Packages
 git clone git://github.com/henrikpersson/rsub.git rsub
 ```
+And the connect command go for this 
+```
+ssh -R 52698:localhost:52698 server_user@server_address
+```
