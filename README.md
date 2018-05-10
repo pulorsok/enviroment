@@ -12,6 +12,13 @@ curl -o - https://raw.githubusercontent.com/pulorsok/enviroment/master/bash_inst
 curl -o - https://raw.githubusercontent.com/pulorsok/enviroment/master/tmux_install.sh | sh
 ```
 
+This for auto ssh reconnect session, add it into .bashrc
+```
+if [[ -z "$TMUX" ]] && [ "$SSH_CONNECTION" != "" ]; then
+    tmux attach-session -t ssh_tmux || tmux new-session -s ssh_tmux
+fi
+
+```
 ### vim install
 
 ```
